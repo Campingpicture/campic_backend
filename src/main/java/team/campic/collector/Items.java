@@ -1,7 +1,6 @@
 package team.campic.collector;
 
-import jakarta.xml.bind.annotation.XmlAccessType;
-import jakarta.xml.bind.annotation.XmlAccessorType;
+
 import jakarta.xml.bind.annotation.XmlElement;
 
 import java.util.List;
