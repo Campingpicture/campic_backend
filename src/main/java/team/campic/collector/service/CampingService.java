@@ -1,4 +1,4 @@
-package team.campic.collector;
+package team.campic.collector.service;
 
 import jakarta.xml.bind.JAXBContext;
 import jakarta.xml.bind.Unmarshaller;
@@ -9,6 +9,11 @@ import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
+import team.campic.collector.response.ApiResponse;
+import team.campic.collector.response.Item;
+import team.campic.collector.entity.CampingEntity;
+import team.campic.collector.repository.CampingMapper;
+import team.campic.collector.repository.CampingRepository;
 
 import java.io.StringReader;
 import java.net.URI;

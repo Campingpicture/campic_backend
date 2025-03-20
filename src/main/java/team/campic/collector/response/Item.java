@@ -1,4 +1,4 @@
-package team.campic.collector;
+package team.campic.collector.response;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

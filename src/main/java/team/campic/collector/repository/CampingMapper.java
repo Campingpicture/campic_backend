@@ -1,6 +1,8 @@
-package team.campic.collector;
+package team.campic.collector.repository;
 
 import org.springframework.stereotype.Component;
+import team.campic.collector.response.Item;
+import team.campic.collector.entity.CampingEntity;
 
 @Component
 public class CampingMapper {

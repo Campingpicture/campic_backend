@@ -1,4 +1,4 @@
-package team.campic.collector;
+package team.campic.collector.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
